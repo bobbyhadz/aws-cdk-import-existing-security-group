@@ -1,8 +1,7 @@
-# Article name here
+# Import and Existing Security Group in AWS CDK
 
 A repository for an article on
-[bobbyhadz.com](https://bobbyhadz.com/blog/aws-s3-presigned-url-react)
-`<- Update Link`
+[bobbyhadz.com](https://bobbyhadz.com/blog/aws-cdk-import-existing-security-group)
 
 ## How to Use
 
@@ -14,17 +13,9 @@ A repository for an article on
 npm install
 ```
 
-3. Create the CDK stack
+3. Replace the placeholder `YOUR_SG_ID` with the actual security group id and
+   `synth` the stack
 
 ```bash
-npx cdk deploy
-```
-
-4. Open the AWS CloudFormation Console and the stack should be created in your
-   default region
-
-5. Cleanup
-
-```bash
-npx cdk destroy
+npx cdk synth
 ```
