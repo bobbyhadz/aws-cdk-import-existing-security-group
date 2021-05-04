@@ -22,6 +22,7 @@ export class CdkStarterStack extends cdk.Stack {
     // );
 
     // // 👇 can only add egress rules if `allowAllOutbound` is set to false
+    // // and `mutable` is set to `true`
     // importedSecurityGroup.addEgressRule(
     //   ec2.Peer.ipv4('10.0.0.0/16'),
     //   ec2.Port.tcp(3306),
