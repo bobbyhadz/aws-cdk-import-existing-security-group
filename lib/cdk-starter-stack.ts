@@ -8,7 +8,7 @@ export class CdkStarterStack extends cdk.Stack {
     const importedSecurityGroup = ec2.SecurityGroup.fromSecurityGroupId(
       this,
       'imported-security-group',
-      'sg-0364cc5f9a979e9a6',
+      'YOUR_SG_ID',
       {allowAllOutbound: true, mutable: true},
     );
 
