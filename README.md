@@ -3,6 +3,8 @@
 A repository for an article on
 [bobbyhadz.com](https://bobbyhadz.com/blog/aws-cdk-import-existing-security-group)
 
+> If you use CDK v1, switch to the cdk-v1 branch
+
 ## How to Use
 
 1. Clone the repository
@@ -17,5 +19,5 @@ npm install
    `synth` the stack
 
 ```bash
-npx cdk synth
+npx aws-cdk synth
 ```
